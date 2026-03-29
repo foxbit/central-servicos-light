@@ -1,4 +1,4 @@
-import { Github, ExternalLink } from 'lucide-react';
+import { FolderGit2, ExternalLink } from 'lucide-react';
 import { SkillItem } from '../../types';
 import { TagBadge } from '../ui/TagBadge';
 
@@ -43,7 +43,7 @@ export function SkillCard({ item }: SkillCardProps) {
         ) : (
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-emerald-900/40 to-gray-900">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center">
-              <Github className="w-5 h-5 text-emerald-400" />
+              <FolderGit2 className="w-5 h-5 text-emerald-400" />
             </div>
           </div>
         )}
@@ -62,7 +62,7 @@ export function SkillCard({ item }: SkillCardProps) {
         {/* Repo path */}
         {parsed && (
           <div className="flex items-center gap-1.5">
-            <Github className="w-3.5 h-3.5 text-gray-500 shrink-0" />
+            <FolderGit2 className="w-3.5 h-3.5 text-gray-500 shrink-0" />
             <span className="text-xs text-gray-500 truncate">
               {parsed.owner}/<span className="text-gray-400">{parsed.repo}</span>
             </span>

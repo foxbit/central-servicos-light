@@ -7,7 +7,7 @@ import { useSearch } from '../hooks/useSearch';
 import { SkillItem } from '../types';
 import skillsRaw from '../data/skills.json';
 
-const skills: SkillItem[] = skillsRaw.map((item, i) => ({ ...item, id: String(i) }));
+const skills: SkillItem[] = (skillsRaw as any[]).map((item, i) => ({ ...item, id: String(i) }));
 
 export function SkillsRepo() {
   const { query, setQuery, filtered } = useSearch(
