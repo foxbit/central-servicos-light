@@ -47,5 +47,32 @@
     "url": "https://www.typescriptlang.org",
     "customTags": ["typescript", "dev", "documentação"],
     "notes": "Documentação oficial do TypeScript. Referência indispensável para tipagem estática no JavaScript."
+  },
+  {
+    "id": "WH53XlFsNoKKnxgimsAxC",
+    "title": "GitNexus: The Zero-Server Code Intelligence Engine",
+    "ogImage": "https://github.com/abhigyanpatwari/GitNexus/raw/main/assets/og-image.png",
+    "url": "https://github.com/abhigyanpatwari/GitNexus",
+    "customTags": ["github", "code-intelligence", "knowledge-graph", "ai", "agents"],
+    "notes": "Client-side knowledge graph creator que roda inteiramente no navegador. Permite explorar repositórios GitHub com Graph RAG Agent integrado.",
+    "archivedAt": "2026-03-29T21:01:52Z"
+  },
+  {
+    "id": "02Qg8deU3IAxVWtEZhImG",
+    "title": "Tu vai virar um monstro do vibe coding com esses repositórios!",
+    "ogImage": "https://instagram.com/reel/DWCW0yxCVC6/",
+    "url": "https://www.instagram.com/reel/DWCW0yxCVC6/?igsh=cTVuanAxMXl2Mjc1",
+    "customTags": ["vibecoding", "coding", "repositories", "skills", "instagram"],
+    "notes": "Reel do franklim.gui sobre repositórios essenciais para vibe coding. Conteúdo motivacional sobre desenvolvimento de skills.",
+    "archivedAt": "2026-03-29T21:01:52Z"
+  },
+  {
+    "id": "azIHr1aVAggzwEOtmmgOS",
+    "title": "Pretext — Pure JavaScript/TypeScript library for multiline text measurement & layout",
+    "ogImage": "https://github.com/chenglou/pretext/raw/main/assets/og-image.png",
+    "url": "https://github.com/chenglou/pretext",
+    "customTags": ["javascript", "typescript", "text-layout", "measurement", "library"],
+    "notes": "Biblioteca rápida e precisa para medição e layout de texto multilinha. Suporta todos os idiomas e oferece renderização para DOM, Canvas, SVG e server-side.",
+    "archivedAt": "2026-03-29T21:01:52Z"
   }
 ]

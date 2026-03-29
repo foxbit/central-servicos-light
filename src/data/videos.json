@@ -40,5 +40,32 @@
     "thumbnail": "https://i.ytimg.com/vi/novnyCaa7To/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=novnyCaa7To",
     "tags": ["react", "react-query", "estado", "api"]
+  },
+  {
+    "id": "0uz6u0KchPQiq4seDGGrR",
+    "title": "I discovered 177 FREE AI Agents on OpenClaw (Just copy and paste)",
+    "channel": "Matheus | IA Coding",
+    "thumbnail": "https://i.ytimg.com/vi/oInvv7-25io/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=oInvv7-25io",
+    "tags": ["openclaw", "vibecoding", "inteligenciaartificial", "ia", "agents"],
+    "archivedAt": "2026-03-29T21:01:52Z"
+  },
+  {
+    "id": "NuRiLsw39XJPAv0QnInho",
+    "title": "Paperclip: The Open-Source Tool for Orchestrating AI Agents",
+    "channel": "TekZoom",
+    "thumbnail": "https://i.ytimg.com/vi/CVvx-lSCHK8/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=CVvx-lSCHK8",
+    "tags": ["programação", "inteligenciaartificial", "nocode", "agents", "orchestration"],
+    "archivedAt": "2026-03-29T21:01:52Z"
+  },
+  {
+    "id": "dVLbKLalXQRlK5W8bMEwX",
+    "title": "Stop Building n8n AI Agent (Claude Code Does It INSTANTLY)",
+    "channel": "Michele Torti",
+    "thumbnail": "https://i.ytimg.com/vi/3-R6EF7fdc4/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=3-R6EF7fdc4",
+    "tags": ["n8n", "claude", "automation", "ai", "agents"],
+    "archivedAt": "2026-03-29T21:01:52Z"
   }
 ]
