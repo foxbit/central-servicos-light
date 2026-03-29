@@ -1,53 +1,17 @@
 [
   {
-    "title": "Full Stack com Next.js 14 — Do Zero ao Deploy Completo",
-    "channel": "Filipe Deschamps",
-    "thumbnail": "https://i.ytimg.com/vi/ZVnjOPwW4ZA/maxresdefault.jpg",
-    "youtubeUrl": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
-    "tags": ["nextjs", "fullstack", "deploy", "react"]
-  },
-  {
-    "title": "TypeScript em 2024 — Tipos Avançados e Boas Práticas",
-    "channel": "Rocketseat",
-    "thumbnail": "https://i.ytimg.com/vi/aTf8QTjw4RE/maxresdefault.jpg",
-    "youtubeUrl": "https://www.youtube.com/watch?v=aTf8QTjw4RE",
-    "tags": ["typescript", "frontend", "tipagem", "boas-práticas"]
-  },
-  {
-    "title": "CSS Grid & Flexbox — Layout Moderno na Prática",
-    "channel": "Kevin Powell",
-    "thumbnail": "https://i.ytimg.com/vi/rg7Fvvl3taU/maxresdefault.jpg",
-    "youtubeUrl": "https://www.youtube.com/watch?v=rg7Fvvl3taU",
-    "tags": ["css", "layout", "frontend", "responsivo"]
-  },
-  {
-    "title": "Como Usar IA Para Acelerar Seu Workflow de Dev",
-    "channel": "Theo — t3.gg",
-    "thumbnail": "https://i.ytimg.com/vi/IF7B6AUxDTM/maxresdefault.jpg",
-    "youtubeUrl": "https://www.youtube.com/watch?v=IF7B6AUxDTM",
-    "tags": ["ia", "produtividade", "dev", "workflow"]
-  },
-  {
-    "title": "Design System do Zero com Figma e Tokens",
-    "channel": "Deborah Folloni",
-    "thumbnail": "https://i.ytimg.com/vi/Dtd8GlMgMaQ/maxresdefault.jpg",
-    "youtubeUrl": "https://www.youtube.com/watch?v=Dtd8GlMgMaQ",
-    "tags": ["design", "figma", "design-system", "tokens"]
-  },
-  {
-    "title": "React Query — Gerenciamento de Estado do Servidor",
-    "channel": "TkDodo",
-    "thumbnail": "https://i.ytimg.com/vi/novnyCaa7To/maxresdefault.jpg",
-    "youtubeUrl": "https://www.youtube.com/watch?v=novnyCaa7To",
-    "tags": ["react", "react-query", "estado", "api"]
-  },
-  {
     "id": "0uz6u0KchPQiq4seDGGrR",
     "title": "I discovered 177 FREE AI Agents on OpenClaw (Just copy and paste)",
     "channel": "Matheus | IA Coding",
     "thumbnail": "https://i.ytimg.com/vi/oInvv7-25io/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=oInvv7-25io",
-    "tags": ["openclaw", "vibecoding", "inteligenciaartificial", "ia", "agents"],
+    "tags": [
+      "openclaw",
+      "vibecoding",
+      "inteligenciaartificial",
+      "ia",
+      "agents"
+    ],
     "archivedAt": "2026-03-29T21:01:52Z"
   },
   {
@@ -56,7 +20,13 @@
     "channel": "TekZoom",
     "thumbnail": "https://i.ytimg.com/vi/CVvx-lSCHK8/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=CVvx-lSCHK8",
-    "tags": ["programação", "inteligenciaartificial", "nocode", "agents", "orchestration"],
+    "tags": [
+      "programação",
+      "inteligenciaartificial",
+      "nocode",
+      "agents",
+      "orchestration"
+    ],
     "archivedAt": "2026-03-29T21:01:52Z"
   },
   {
@@ -65,7 +35,13 @@
     "channel": "Michele Torti",
     "thumbnail": "https://i.ytimg.com/vi/3-R6EF7fdc4/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=3-R6EF7fdc4",
-    "tags": ["n8n", "claude", "automation", "ai", "agents"],
+    "tags": [
+      "n8n",
+      "claude",
+      "automation",
+      "ai",
+      "agents"
+    ],
     "archivedAt": "2026-03-29T21:01:52Z"
   }
 ]
