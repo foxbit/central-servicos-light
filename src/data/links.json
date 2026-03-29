@@ -2,6 +2,7 @@
   {
     "title": "Ray.so — Create beautiful images of your code",
     "ogImage": "https://ray.so/og.png",
+    "thumbnail": "https://www.ray.so/_next/static/media/og.1bc02b1d.png",
     "url": "https://ray.so",
     "customTags": [
       "dev",
@@ -14,6 +15,7 @@
     "id": "WH53XlFsNoKKnxgimsAxC",
     "title": "GitNexus: The Zero-Server Code Intelligence Engine",
     "ogImage": "https://github.com/abhigyanpatwari/GitNexus/raw/main/assets/og-image.png",
+    "thumbnail": "https://opengraph.githubassets.com/ee4e0067e2b65f03cc359cfc27bcf4a8cce8882ad9f4923adbc5c858c0ddd6e0/abhigyanpatwari/GitNexus",
     "url": "https://github.com/abhigyanpatwari/GitNexus",
     "customTags": [
       "github",
@@ -29,6 +31,7 @@
     "id": "02Qg8deU3IAxVWtEZhImG",
     "title": "Tu vai virar um monstro do vibe coding com esses repositórios!",
     "ogImage": "https://instagram.com/reel/DWCW0yxCVC6/",
+    "thumbnail": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/653121058_18065229161674557_3613496263870748528_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8EVQEHPLuFgQ7kNvwEc3qzq&_nc_oc=AdrMBilpMOhxxoIK8fmzACv2KryKs1TmnTdgFp_NqC4iad4rbNMXhuXZoxUgWsCPIXU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=QMZaomFADJ9LUUtGL7YCig&_nc_ss=7a30f&oh=00_Afz-jtfKubZ18nlLVOFiEFXVuZpeE166BzooXBKmAZw_kg&oe=69CF650F",
     "url": "https://www.instagram.com/reel/DWCW0yxCVC6/?igsh=cTVuanAxMXl2Mjc1",
     "customTags": [
       "vibecoding",
@@ -44,6 +47,7 @@
     "id": "azIHr1aVAggzwEOtmmgOS",
     "title": "Pretext — Pure JavaScript/TypeScript library for multiline text measurement & layout",
     "ogImage": "https://github.com/chenglou/pretext/raw/main/assets/og-image.png",
+    "thumbnail": "https://opengraph.githubassets.com/4382b2e6cba90cd670963cb5c7471425bc8a44d7a121292a202bb4e01bc92417/chenglou/pretext",
     "url": "https://github.com/chenglou/pretext",
     "customTags": [
       "javascript",
