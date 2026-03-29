@@ -1,6 +1,6 @@
 # Central de Serviços
 
-Hub estático para gerenciar e visualizar recursos digitais — links e vídeos — em uma interface centralizada.
+Hub estático para gerenciar e visualizar recursos digitais — links, vídeos e skills para LLM — em uma interface centralizada.
 
 **Stack:** React + TypeScript + Vite + Tailwind CSS · **Hospedagem:** GitHub Pages
 
@@ -8,7 +8,7 @@ Hub estático para gerenciar e visualizar recursos digitais — links e vídeos 
 
 ## Para a IA: Como alimentar o conteúdo
 
-Este documento descreve exatamente o que você precisa saber para adicionar, editar ou remover itens do repositório. Toda a base de dados do site vive em dois arquivos JSON dentro de `src/data/`.
+Este documento descreve exatamente o que você precisa saber para adicionar, editar ou remover itens do repositório. Toda a base de dados do site vive em três arquivos JSON dentro de `src/data/`.
 
 ---
 
@@ -18,6 +18,7 @@ Este documento descreve exatamente o que você precisa saber para adicionar, edi
 |---|---|
 | `src/data/links.json` | Repositório de Links |
 | `src/data/videos.json` | Repositório de Vídeos |
+| `src/data/skills.json` | Skills para LLM (somente repositórios GitHub) |
 
 Edite apenas esses dois arquivos. Nenhuma outra alteração de código é necessária para adicionar ou remover conteúdo.
 
@@ -107,6 +108,47 @@ Para links no formato curto `https://youtu.be/VIDEO_ID`, o ID é a parte após a
 
 ---
 
+### Estrutura de `src/data/skills.json`
+
+O arquivo é um array JSON. Cada objeto representa um repositório GitHub com skills, prompts ou configurações para LLMs.
+
+> **Restrição:** aceita **apenas URLs de repositórios GitHub** (`https://github.com/owner/repo`). Não use links para gists, issues, arquivos individuais, ou outros sites.
+
+```json
+[
+  {
+    "title": "nome-do-repositório",
+    "url": "https://github.com/owner/repo",
+    "customTags": ["tag1", "tag2", "tag3"],
+    "notes": "Descrição do que o repositório contém e como usar."
+  }
+]
+```
+
+**Descrição de cada campo:**
+
+| Campo | Tipo | Obrigatório | Descrição |
+|---|---|---|---|
+| `title` | string | sim | Nome do repositório, exatamente como aparece no GitHub (sem o `owner/`). Pode incluir uma descrição curta após ` — `. |
+| `url` | string (URL GitHub) | sim | URL do repositório no formato `https://github.com/owner/repo`. **Não inclua** barras finais, paths de subpastas ou query strings. |
+| `customTags` | array de strings | sim | Entre 2 e 5 tags em minúsculas. Mesmas regras das tags de links. |
+| `notes` | string | sim | Frase ou duas explicando o que o repositório contém e como se aplica ao trabalho com LLMs. |
+
+**Thumbnail automática:** o card gera automaticamente a imagem OG do GitHub usando o padrão:
+```
+https://opengraph.githubassets.com/1/{owner}/{repo}
+```
+Não é necessário fornecer nenhum campo de imagem — ela é derivada da `url`.
+
+**Exemplos de categorias válidas de skills:**
+- Coleções de system prompts (`.cursorrules`, `.clinerules`, `CLAUDE.md`)
+- Frameworks de prompting (Chain-of-Thought, ReAct, etc.)
+- Ferramentas CLI que ampliam capacidades de LLMs
+- Coleções de patterns reutilizáveis para agentes
+- Repositórios de benchmarks e avaliação de modelos
+
+---
+
 ### Exemplos completos
 
 **Link:**
@@ -117,6 +159,16 @@ Para links no formato curto `https://youtu.be/VIDEO_ID`, o ID é a parte após a
   "url": "https://vercel.com",
   "customTags": ["deploy", "hosting", "frontend", "dev"],
   "notes": "Plataforma de deploy para projetos frontend. Integração nativa com GitHub e suporte a serverless functions."
+}
+```
+
+**Skill (repositório GitHub):**
+```json
+{
+  "title": "awesome-prompts",
+  "url": "https://github.com/f/awesome-chatgpt-prompts",
+  "customTags": ["prompts", "llm", "ia", "chatgpt"],
+  "notes": "Coleção curada de prompts para diversas tarefas. Boa referência para criar system prompts especializados."
 }
 ```
 

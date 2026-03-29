@@ -15,3 +15,11 @@ export interface VideoItem {
   youtubeUrl: string;
   tags: string[];
 }
+
+export interface SkillItem {
+  id: string;
+  title: string;
+  url: string;
+  customTags: string[];
+  notes: string;
+}

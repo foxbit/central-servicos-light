@@ -1,8 +1,9 @@
-import { Link2, Video, Zap, Star } from 'lucide-react';
+import { Link2, Video, Zap, Star, BookOpen } from 'lucide-react';
 import { PageWrapper } from '../components/layout/PageWrapper';
 import { HubCard } from '../components/cards/HubCard';
 import linksData from '../data/links.json';
 import videosData from '../data/videos.json';
+import skillsData from '../data/skills.json';
 
 export function Hub() {
   return (
@@ -21,7 +22,7 @@ export function Hub() {
           </h1>
 
           <p className="text-gray-400 text-lg max-w-xl mx-auto leading-relaxed">
-            Organize e acesse seus recursos digitais favoritos. Links e vídeos curados em um só lugar.
+            Organize e acesse seus recursos digitais favoritos. Links, vídeos e skills para LLM em um só lugar.
           </p>
         </div>
 
@@ -30,6 +31,7 @@ export function Hub() {
           {[
             { icon: Link2, label: 'Links salvos', value: linksData.length },
             { icon: Video, label: 'Vídeos arquivados', value: videosData.length },
+            { icon: BookOpen, label: 'Skills para LLM', value: skillsData.length },
             { icon: Zap, label: 'Acesso instantâneo', value: '100%' },
           ].map(({ icon: Icon, label, value }) => (
             <div key={label} className="text-center">
@@ -43,7 +45,7 @@ export function Hub() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <HubCard
             to="/links"
             title="Repositório de Links"
@@ -59,6 +61,14 @@ export function Hub() {
             icon={<Video className="w-7 h-7" />}
             count={videosData.length}
             gradient="bg-gradient-to-br from-red-600/20 to-orange-600/20"
+          />
+          <HubCard
+            to="/skills"
+            title="Skills para LLM"
+            description="Repositórios GitHub com prompts, regras e skills para potencializar seus agentes e modelos."
+            icon={<BookOpen className="w-7 h-7" />}
+            count={skillsData.length}
+            gradient="bg-gradient-to-br from-emerald-600/20 to-teal-600/20"
           />
         </div>
       </div>
