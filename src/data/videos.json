@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Full Stack com Next.js 14 — Do Zero ao Deploy Completo",
+    "channel": "Filipe Deschamps",
+    "thumbnail": "https://i.ytimg.com/vi/ZVnjOPwW4ZA/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+    "tags": ["nextjs", "fullstack", "deploy", "react"]
+  },
+  {
+    "title": "TypeScript em 2024 — Tipos Avançados e Boas Práticas",
+    "channel": "Rocketseat",
+    "thumbnail": "https://i.ytimg.com/vi/aTf8QTjw4RE/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=aTf8QTjw4RE",
+    "tags": ["typescript", "frontend", "tipagem", "boas-práticas"]
+  },
+  {
+    "title": "CSS Grid & Flexbox — Layout Moderno na Prática",
+    "channel": "Kevin Powell",
+    "thumbnail": "https://i.ytimg.com/vi/rg7Fvvl3taU/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=rg7Fvvl3taU",
+    "tags": ["css", "layout", "frontend", "responsivo"]
+  },
+  {
+    "title": "Como Usar IA Para Acelerar Seu Workflow de Dev",
+    "channel": "Theo — t3.gg",
+    "thumbnail": "https://i.ytimg.com/vi/IF7B6AUxDTM/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=IF7B6AUxDTM",
+    "tags": ["ia", "produtividade", "dev", "workflow"]
+  },
+  {
+    "title": "Design System do Zero com Figma e Tokens",
+    "channel": "Deborah Folloni",
+    "thumbnail": "https://i.ytimg.com/vi/Dtd8GlMgMaQ/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Dtd8GlMgMaQ",
+    "tags": ["design", "figma", "design-system", "tokens"]
+  },
+  {
+    "title": "React Query — Gerenciamento de Estado do Servidor",
+    "channel": "TkDodo",
+    "thumbnail": "https://i.ytimg.com/vi/novnyCaa7To/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=novnyCaa7To",
+    "tags": ["react", "react-query", "estado", "api"]
+  }
+]
