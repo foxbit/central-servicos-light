@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "title": "remotion",
+    "url": "https://github.com/remotion-dev/remotion",
+    "customTags": ["react", "javascript", "video", "typescript", "animation", "svg", "canvas", "motion-graphics", "creative-coding", "webgl", "video-editing", "programmatic-video"],
+    "notes": "Framework para criar vídeos programaticamente usando React, aproveitando tecnologias web como CSS, Canvas, SVG, WebGL, etc."
+  }
+]
