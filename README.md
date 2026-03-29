@@ -45,7 +45,8 @@ O arquivo é um array JSON. Cada objeto representa um card de link.
 | Campo | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `title` | string | sim | Título da página. Use o título real da página ou o nome da ferramenta. Pode incluir tagline após ` — `. |
-| `ogImage` | string (URL) | sim | URL da imagem Open Graph da página. Aparece como banner do card. Se não souber, use `""` — o card exibirá um placeholder. |
+| `ogImage` | string (URL) | sim | URL da meta tag `og:image` da página. Usada como fallback quando `thumbnail` não está presente. Pode ser `""`. |
+| `thumbnail` | string (URL) | não | URL direta de uma imagem verificada. Tem **prioridade** sobre `ogImage`. Use quando souber que a URL aponta para uma imagem real (não uma página). |
 | `url` | string (URL) | sim | URL completa do link, incluindo `https://`. |
 | `customTags` | array de strings | sim | Entre 2 e 5 tags em minúsculas, sem espaços (use hífen se necessário). Usadas na busca e exibidas como badges coloridos. |
 | `notes` | string | sim | Frase ou duas explicando o que é e para que serve. Tom direto e informativo. Pode ser vazio `""` se não houver contexto útil. |
@@ -56,7 +57,12 @@ O arquivo é um array JSON. Cada objeto representa um card de link.
 3. Use o valor do atributo `content`.
 4. Alternativa rápida: acesse `https://opengraph.io/api/1.1/site/{URL_ENCODED}` para consultar metadados.
 
-> **Comportamento automático:** se `ogImage` estiver vazio (`""`) ou a URL da imagem falhar ao carregar, o card gera automaticamente um screenshot da página usando o serviço `image.thum.io`. Portanto, **deixar `ogImage` vazio é válido** — o card sempre exibirá uma thumbnail visual. Forneça a `ogImage` quando quiser garantir controle sobre a imagem exibida (ex: logo, banner oficial da ferramenta).
+> **Ordem de prioridade das imagens:** o card tenta carregar as imagens nesta sequência, avançando para a próxima se a atual falhar:
+> 1. `thumbnail` (se presente)
+> 2. `ogImage` (se diferente de `thumbnail`)
+> 3. Screenshot automático via `image.thum.io`
+>
+> Portanto, deixar ambos os campos vazios é válido — o card sempre exibirá uma imagem visual. Use `thumbnail` quando tiver a URL direta de uma imagem (CDN, opengraph assets, etc.) para garantir carregamento mais rápido e confiável.
 
 **Regras para `customTags`:**
 - Tudo em minúsculas: `"dev"`, não `"Dev"` ou `"DEV"`.

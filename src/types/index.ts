@@ -2,6 +2,7 @@ export interface LinkItem {
   id: string;
   title: string;
   ogImage: string;
+  thumbnail?: string;
   url: string;
   customTags: string[];
   notes: string;
