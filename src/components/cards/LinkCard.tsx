@@ -7,8 +7,14 @@ interface LinkCardProps {
   item: LinkItem;
 }
 
+function getThumbnailSrc(ogImage: string, url: string): string {
+  if (ogImage) return ogImage;
+  return `https://image.thum.io/get/width/640/crop/360/${encodeURIComponent(url)}`;
+}
+
 export function LinkCard({ item }: LinkCardProps) {
   const [imgError, setImgError] = useState(false);
+  const [usedFallback, setUsedFallback] = useState(false);
 
   let domain = '';
   try {
@@ -18,6 +24,19 @@ export function LinkCard({ item }: LinkCardProps) {
   }
 
   const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+  const thumbnailSrc = getThumbnailSrc(item.ogImage, item.url);
+
+  function handleImgError() {
+    if (!usedFallback && item.ogImage) {
+      setUsedFallback(true);
+    } else {
+      setImgError(true);
+    }
+  }
+
+  const currentSrc = usedFallback
+    ? `https://image.thum.io/get/width/640/crop/360/${encodeURIComponent(item.url)}`
+    : thumbnailSrc;
 
   return (
     <a
@@ -29,11 +48,11 @@ export function LinkCard({ item }: LinkCardProps) {
     >
       {/* Image */}
       <div className="relative aspect-video overflow-hidden bg-gray-900">
-        {!imgError && item.ogImage ? (
+        {!imgError ? (
           <img
-            src={item.ogImage}
+            src={currentSrc}
             alt={item.title}
-            onError={() => setImgError(true)}
+            onError={handleImgError}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         ) : (

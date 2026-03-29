@@ -55,6 +55,8 @@ O arquivo é um array JSON. Cada objeto representa um card de link.
 3. Use o valor do atributo `content`.
 4. Alternativa rápida: acesse `https://opengraph.io/api/1.1/site/{URL_ENCODED}` para consultar metadados.
 
+> **Comportamento automático:** se `ogImage` estiver vazio (`""`) ou a URL da imagem falhar ao carregar, o card gera automaticamente um screenshot da página usando o serviço `image.thum.io`. Portanto, **deixar `ogImage` vazio é válido** — o card sempre exibirá uma thumbnail visual. Forneça a `ogImage` quando quiser garantir controle sobre a imagem exibida (ex: logo, banner oficial da ferramenta).
+
 **Regras para `customTags`:**
 - Tudo em minúsculas: `"dev"`, não `"Dev"` ou `"DEV"`.
 - Sem espaços: use hífen para compostos: `"design-system"`, `"boas-práticas"`.
