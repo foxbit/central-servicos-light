@@ -74,5 +74,20 @@
     ],
     "notes": "Reel da printpal.io sobre ferramentas de impressão 3D para transformar cidades ou terrenos em modelos 3D. Parte 4 da série.",
     "archivedAt": "2026-03-30T04:03:53Z"
+  },
+  {
+    "id": "0jEODuMKI8h8x0jkzvKpO",
+    "title": "Agents, Meet the Figma Canvas | Figma Blog",
+    "url": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
+    "ogImage": "https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&q=70&fit=max&auto=format",
+    "thumbnail": "https://cdn.sanity.io/images/599r6htc/regionalized/e0ba3dc919974436fcf5a83c920ebccbf45ca743-1920x1080.png?w=1200&q=70&fit=max&auto=format",
+    "customTags": [
+      "figma",
+      "agents",
+      "ai",
+      "design"
+    ],
+    "notes": "Starting today, you can use AI agents to design directly on the Figma canvas. And with skills, you can guide agents with context about your team’s decisions and intent.",
+    "archivedAt": "2026-03-30T20:08:00Z"
   }
 ]
