@@ -104,5 +104,21 @@
     ],
     "notes": "This app lets you create detailed, high‑resolution 3D shapes using Sparc3D technology. Powered by Math Magic AI Research, NTU & IC.",
     "archivedAt": "2026-04-01T15:09:13Z"
+  },
+  {
+    "id": "a8pI9cwtekHaHCm1AKd3W",
+    "title": "Motion — JavaScript & React animation library",
+    "url": "https://motion.dev/",
+    "ogImage": "https://framerusercontent.com/images/9IOwyTKAykVZTetDEOb7qh81ZQ.png",
+    "thumbnail": "https://framerusercontent.com/images/9IOwyTKAykVZTetDEOb7qh81ZQ.png",
+    "customTags": [
+      "animation",
+      "javascript",
+      "react",
+      "vue",
+      "frontend"
+    ],
+    "notes": "Motion (prev Framer Motion) is a fast, production-grade web animation library for React, JavaScript and Vue. Build smooth UI animations with examples, tutorials, and a tiny footprint.",
+    "archivedAt": "2026-04-01T17:52:38Z"
   }
 ]
