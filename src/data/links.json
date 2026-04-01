@@ -89,5 +89,20 @@
     ],
     "notes": "Starting today, you can use AI agents to design directly on the Figma canvas. And with skills, you can guide agents with context about your team’s decisions and intent.",
     "archivedAt": "2026-03-30T20:08:00Z"
+  },
+  {
+    "id": "8REFzOVDzVBHayS8Iz61q",
+    "title": "Sparc3D - a Hugging Face Space by ilcve21",
+    "url": "https://huggingface.co/spaces/ilcve21/Sparc3D",
+    "ogImage": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/ilcve21/Sparc3D.png",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/ilcve21/Sparc3D.png",
+    "customTags": [
+      "3d-generation",
+      "ai",
+      "huggingface",
+      "high-resolution"
+    ],
+    "notes": "This app lets you create detailed, high‑resolution 3D shapes using Sparc3D technology. Powered by Math Magic AI Research, NTU & IC.",
+    "archivedAt": "2026-04-01T15:09:13Z"
   }
 ]
