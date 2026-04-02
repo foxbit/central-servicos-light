@@ -121,4 +121,21 @@
     "notes": "Motion (prev Framer Motion) is a fast, production-grade web animation library for React, JavaScript and Vue. Build smooth UI animations with examples, tutorials, and a tiny footprint.",
     "archivedAt": "2026-04-01T17:52:38Z"
   }
+,
+{
+  "id": "ad492557db1c4364a3026",
+  "title": "VoltAgent/awesome-design-md",
+  "ogImage": "https://opengraph.githubassets.com/fbaf6a85a8f65952d2f6e5c614d01c03f6b53204309ac63d05351ece6c519f15/VoltAgent/awesome-design-md",
+  "thumbnail": "https://opengraph.githubassets.com/fbaf6a85a8f65952d2f6e5c614d01c03f6b53204309ac63d05351ece6c519f15/VoltAgent/awesome-design-md",
+  "url": "https://github.com/VoltAgent/awesome-design-md",
+  "customTags": [
+    "design",
+    "ui",
+    "design-system",
+    "ai",
+    "github"
+  ],
+  "notes": "Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI. - VoltAgent/awesome-design-md",
+  "archivedAt": "2026-04-02T19:46:27Z"
+}
 ]
