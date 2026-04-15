@@ -167,5 +167,20 @@
     ],
     "notes": "Neuform is a motion-first AI workspace for generating landing pages, app screens, social concepts, and motion design directions. Public terms and privacy pages are available from the home page.",
     "archivedAt": "2026-04-15T00:17:33.592159Z"
+  },
+  {
+    "id": "bA3Gv6TiHNU9kT3mYW75f",
+    "title": "Impeccable: Design skills for AI harnesses",
+    "ogImage": "https://impeccable.style/og-image.jpg",
+    "thumbnail": "https://impeccable.style/og-image.jpg",
+    "url": "https://impeccable.style/",
+    "customTags": [
+      "ai",
+      "design",
+      "frontend",
+      "cli"
+    ],
+    "notes": "1 skill, 18 commands, and curated anti-patterns for impeccable frontend design. Works with Cursor, Claude Code, Gemini CLI, and Codex CLI.",
+    "archivedAt": "2026-04-15T14:43:24.333321Z"
   }
 ]
