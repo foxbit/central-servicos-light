@@ -151,5 +151,21 @@
     ],
     "notes": "The highest-scoring AI memory system ever benchmarked. And it&#39;s free. - milla-jovovich/mempalace",
     "archivedAt": "2026-04-08T19:00:21.434098Z"
+  },
+  {
+    "id": "4f1871f071954f95bc7b0",
+    "title": "Neuform",
+    "url": "https://neuform.ai/",
+    "ogImage": "https://neuform.ai/og-home.png",
+    "thumbnail": "https://neuform.ai/og-home.png",
+    "customTags": [
+      "ai",
+      "design",
+      "motion-design",
+      "landing-pages",
+      "app-screens"
+    ],
+    "notes": "Neuform is a motion-first AI workspace for generating landing pages, app screens, social concepts, and motion design directions. Public terms and privacy pages are available from the home page.",
+    "archivedAt": "2026-04-15T00:17:33.592159Z"
   }
 ]
