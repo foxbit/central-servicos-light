@@ -21,7 +21,7 @@
     "thumbnail": "https://i.ytimg.com/vi/CVvx-lSCHK8/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=CVvx-lSCHK8",
     "tags": [
-      "programação",
+      "programa\u00e7\u00e3o",
       "inteligenciaartificial",
       "nocode",
       "agents",
@@ -63,5 +63,27 @@
     "duration": 593,
     "tags": [],
     "archivedAt": "2026-05-01T15:21:51Z"
+  },
+  {
+    "title": "YouTube Video _ZJm3zTiqJM",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_ZJm3zTiqJM",
+    "thumbnail": "https://img.youtube.com/vi/_ZJm3zTiqJM/maxresdefault.jpg",
+    "channel": "",
+    "duration": "",
+    "customTags": [],
+    "notes": "",
+    "id": "hweOUMLNrb9JCY2e3hwH4",
+    "archivedAt": "2026-05-18T20:30:37Z"
+  },
+  {
+    "title": "YouTube Video ig0CmUef3sQ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ig0CmUef3sQ",
+    "thumbnail": "https://img.youtube.com/vi/ig0CmUef3sQ/maxresdefault.jpg",
+    "channel": "",
+    "duration": "",
+    "customTags": [],
+    "notes": "",
+    "id": "q5Hne1wYPpQg9DBRRWKyH",
+    "archivedAt": "2026-05-18T20:30:37Z"
   }
 ]
