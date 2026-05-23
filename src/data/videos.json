@@ -21,7 +21,7 @@
     "thumbnail": "https://i.ytimg.com/vi/CVvx-lSCHK8/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=CVvx-lSCHK8",
     "tags": [
-      "programa\u00e7\u00e3o",
+      "programação",
       "inteligenciaartificial",
       "nocode",
       "agents",
@@ -85,5 +85,16 @@
     "notes": "",
     "id": "q5Hne1wYPpQg9DBRRWKyH",
     "archivedAt": "2026-05-18T20:30:37Z"
+  },
+  {
+    "id": "s8Qz93Q0qyzUM8NEYvLOk",
+    "title": "Testei o Google Omini pra criar Motion e o resultado é INSANO",
+    "url": "https://www.youtube.com/watch?v=dqb-sb5HUOw",
+    "thumbnail": "https://img.youtube.com/vi/dqb-sb5HUOw/maxresdefault.jpg",
+    "channel": "Fernando Araujo",
+    "duration": "22:33",
+    "customTags": [],
+    "notes": "",
+    "archivedAt": "2026-05-23T13:38:37Z"
   }
 ]
