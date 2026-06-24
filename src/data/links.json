@@ -231,5 +231,23 @@
     "customTags": [],
     "notes": "",
     "archivedAt": "2026-06-01T17:51:04Z"
+  },
+  {
+    "id": "FI98Bi3m3FU1scVPo78vP",
+    "title": "vkhanhqui/figma-mcp-go: Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code",
+    "ogImage": "https://opengraph.githubassets.com/1/vkhanhqui/figma-mcp-go",
+    "thumbnail": "https://opengraph.githubassets.com/1/vkhanhqui/figma-mcp-go",
+    "url": "https://github.com/vkhanhqui/figma-mcp-go",
+    "customTags": [
+      "agent",
+      "ai",
+      "automation",
+      "design",
+      "figma",
+      "figma-plugin",
+      "mcp"
+    ],
+    "notes": "Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code. Desenvolvido em Go.",
+    "archivedAt": "2026-06-24T16:37:27Z"
   }
 ]
