@@ -108,5 +108,17 @@
     "customTags": [],
     "notes": "",
     "archivedAt": "2026-06-18T12:41:04Z"
+  },
+  {
+    "id": "4GAN0Hz1Gs773PYaDXTZ1",
+    "title": "HYPERFRAMES CHANGED THE GAME FOREVER (AI VIDEO EDITING)",
+    "channel": "Leonardo Amoyr",
+    "thumbnail": "https://img.youtube.com/vi/TeKutLj3i8c/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TeKutLj3i8c",
+    "duration": 609,
+    "tags": [],
+    "customTags": [],
+    "notes": "In this video, I test HyperFrames, a tool that works with Claude Code and allows you to create animations, motion graphics, and complete videos using only text, HTML, and natural language commands.",
+    "archivedAt": "2026-06-27T15:11:35Z"
   }
 ]
