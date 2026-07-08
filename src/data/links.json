@@ -249,5 +249,19 @@
     ],
     "notes": "Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code. Desenvolvido em Go.",
     "archivedAt": "2026-06-24T16:37:27Z"
+  },
+  {
+    "id": "$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 20)",
+    "title": "DESIGN.md Examples for AI Agents | Refero Styles",
+    "ogImage": "https://styles.refero.design/opengraph-image.png",
+    "thumbnail": "https://styles.refero.design/opengraph-image.png",
+    "url": "https://styles.refero.design/",
+    "customTags": [
+      "design",
+      "ai",
+      "design-system",
+      "refero"
+    ],
+    "notes": "Browse a curated DESIGN.md library for AI agents: colors, typography, spacing, components, and design rules from leading product websites."
   }
 ]
