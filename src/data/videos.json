@@ -131,5 +131,16 @@
     "customTags": [],
     "notes": "",
     "archivedAt": "2026-07-03T18:46:26Z"
+  },
+  {
+    "id": "ljHRWIYMYf4",
+    "title": "Como usar o Claude Code com o Mobbin MCP para Design de UI",
+    "channel": "Griffin Wooldridge",
+    "thumbnail": "https://img.youtube.com/vi/ljHRWIYMYf4/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ljHRWIYMYf4",
+    "tags": [],
+    "customTags": [],
+    "notes": "Este vídeo é um tutorial prático que ensina como conectar o Claude Code à vasta biblioteca de referências de design do Mobbin através do MCP. O apresentador mostra como essa integração permite que a IA pesquise e utilize padrões de design do mundo real para gerar interfaces de usuário (UI) mais precisas e profissionais, em vez de simplesmente \"adivinhar\" o design.",
+    "archivedAt": "2026-07-09T14:30:34Z"
   }
 ]
