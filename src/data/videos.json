@@ -142,5 +142,16 @@
     "customTags": [],
     "notes": "Este vídeo é um tutorial prático que ensina como conectar o Claude Code à vasta biblioteca de referências de design do Mobbin através do MCP. O apresentador mostra como essa integração permite que a IA pesquise e utilize padrões de design do mundo real para gerar interfaces de usuário (UI) mais precisas e profissionais, em vez de simplesmente \"adivinhar\" o design.",
     "archivedAt": "2026-07-09T14:30:34Z"
+  },
+  {
+    "id": "AFRL9dtUHeI",
+    "title": "Claude Fable 5 Builds $10,000 Websites in 21 mins",
+    "channel": "Jack Roberts",
+    "thumbnail": "https://img.youtube.com/vi/AFRL9dtUHeI/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AFRL9dtUHeI",
+    "tags": [],
+    "customTags": [],
+    "notes": "Most Claude Code websites come out looking basic ...",
+    "archivedAt": "2026-07-16T12:34:33Z"
   }
 ]
