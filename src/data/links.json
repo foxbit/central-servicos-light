@@ -172,5 +172,21 @@
       "refero"
     ],
     "notes": "Browse a curated DESIGN.md library for AI agents: colors, typography, spacing, components, and design rules from leading product websites."
+  },
+  {
+    "id": "04392fb8f99d462b943e6",
+    "title": "Higgsfield MCP | AI Image & Video Generation for Any Agent",
+    "url": "https://higgsfield.ai/mcp",
+    "ogImage": "https://static.higgsfield.ai/mcp/mcp%20banner.png",
+    "thumbnail": "https://static.higgsfield.ai/mcp/mcp%20banner.png",
+    "customTags": [
+      "ai",
+      "image-generation",
+      "video-generation",
+      "mcp",
+      "agent"
+    ],
+    "notes": "Add the Higgsfield MCP server to Claude, OpenClaw, Hermes Agent, NemoClaw, or any MCP-compatible client. 30+ models for image and video generation, no API key required.",
+    "archivedAt": "2026-07-22T17:39:06Z"
   }
 ]

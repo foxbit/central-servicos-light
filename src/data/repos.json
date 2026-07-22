@@ -107,5 +107,24 @@
     ],
     "notes": "Plataforma open-source de extração de dados web sem código. Transforma qualquer site em uma API.",
     "archivedAt": "2026-07-22T16:43:03Z"
+  },
+  {
+    "id": "f732065c17444b05b027e",
+    "title": "Skyvern-AI/skyvern: Automate browser-based workflows with LLMs and Computer Vision",
+    "url": "https://github.com/skyvern-ai/skyvern",
+    "thumbnail": "https://opengraph.githubassets.com/1/skyvern-ai/skyvern",
+    "ogImage": "https://opengraph.githubassets.com/1/skyvern-ai/skyvern",
+    "customTags": [
+      "ai",
+      "automation",
+      "browser",
+      "browser-automation",
+      "python",
+      "rpa",
+      "vision",
+      "workflow"
+    ],
+    "notes": "Automate browser-based workflows with LLMs and Computer Vision. Open-source alternative to browser-based RPA.",
+    "archivedAt": "2026-07-22T17:39:06Z"
   }
 ]
