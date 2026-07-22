@@ -12,22 +12,6 @@
     "notes": "Gera prints de código com highlight de sintaxe e temas bonitos. Ideal para posts e apresentações."
   },
   {
-    "id": "WH53XlFsNoKKnxgimsAxC",
-    "title": "GitNexus: The Zero-Server Code Intelligence Engine",
-    "ogImage": "https://github.com/abhigyanpatwari/GitNexus/raw/main/assets/og-image.png",
-    "thumbnail": "https://opengraph.githubassets.com/ee4e0067e2b65f03cc359cfc27bcf4a8cce8882ad9f4923adbc5c858c0ddd6e0/abhigyanpatwari/GitNexus",
-    "url": "https://github.com/abhigyanpatwari/GitNexus",
-    "customTags": [
-      "github",
-      "code-intelligence",
-      "knowledge-graph",
-      "ai",
-      "agents"
-    ],
-    "notes": "Client-side knowledge graph creator que roda inteiramente no navegador. Permite explorar repositórios GitHub com Graph RAG Agent integrado.",
-    "archivedAt": "2026-03-29T21:01:52Z"
-  },
-  {
     "id": "02Qg8deU3IAxVWtEZhImG",
     "title": "Tu vai virar um monstro do vibe coding com esses repositórios!",
     "ogImage": "https://instagram.com/reel/DWCW0yxCVC6/",
@@ -41,22 +25,6 @@
       "instagram"
     ],
     "notes": "Reel do franklim.gui sobre repositórios essenciais para vibe coding. Conteúdo motivacional sobre desenvolvimento de skills.",
-    "archivedAt": "2026-03-29T21:01:52Z"
-  },
-  {
-    "id": "azIHr1aVAggzwEOtmmgOS",
-    "title": "Pretext — Pure JavaScript/TypeScript library for multiline text measurement & layout",
-    "ogImage": "https://github.com/chenglou/pretext/raw/main/assets/og-image.png",
-    "thumbnail": "https://opengraph.githubassets.com/4382b2e6cba90cd670963cb5c7471425bc8a44d7a121292a202bb4e01bc92417/chenglou/pretext",
-    "url": "https://github.com/chenglou/pretext",
-    "customTags": [
-      "javascript",
-      "typescript",
-      "text-layout",
-      "measurement",
-      "library"
-    ],
-    "notes": "Biblioteca rápida e precisa para medição e layout de texto multilinha. Suporta todos os idiomas e oferece renderização para DOM, Canvas, SVG e server-side.",
     "archivedAt": "2026-03-29T21:01:52Z"
   },
   {
@@ -120,37 +88,6 @@
     ],
     "notes": "Motion (prev Framer Motion) is a fast, production-grade web animation library for React, JavaScript and Vue. Build smooth UI animations with examples, tutorials, and a tiny footprint.",
     "archivedAt": "2026-04-01T17:52:38Z"
-  },
-  {
-    "id": "ad492557db1c4364a3026",
-    "title": "VoltAgent/awesome-design-md",
-    "ogImage": "https://opengraph.githubassets.com/fbaf6a85a8f65952d2f6e5c614d01c03f6b53204309ac63d05351ece6c519f15/VoltAgent/awesome-design-md",
-    "thumbnail": "https://opengraph.githubassets.com/fbaf6a85a8f65952d2f6e5c614d01c03f6b53204309ac63d05351ece6c519f15/VoltAgent/awesome-design-md",
-    "url": "https://github.com/VoltAgent/awesome-design-md",
-    "customTags": [
-      "design",
-      "ui",
-      "design-system",
-      "ai",
-      "github"
-    ],
-    "notes": "Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI. - VoltAgent/awesome-design-md",
-    "archivedAt": "2026-04-02T19:46:27Z"
-  },
-  {
-    "id": "8XwYAGXwhz7QysKVMVkGJ",
-    "title": "GitHub - milla-jovovich/mempalace: The highest-scoring AI memory system ever benchmarked. And it&#39;s free.",
-    "ogImage": "https://opengraph.githubassets.com/99d85a7b41a1146758d1460ee34429f205bfa7f85f2738c89eea5172200390f8/milla-jovovich/mempalace",
-    "thumbnail": "https://opengraph.githubassets.com/99d85a7b41a1146758d1460ee34429f205bfa7f85f2738c89eea5172200390f8/milla-jovovich/mempalace",
-    "url": "https://github.com/milla-jovovich/mempalace",
-    "customTags": [
-      "ai",
-      "memory-system",
-      "github",
-      "benchmark"
-    ],
-    "notes": "The highest-scoring AI memory system ever benchmarked. And it&#39;s free. - milla-jovovich/mempalace",
-    "archivedAt": "2026-04-08T19:00:21.434098Z"
   },
   {
     "id": "4f1871f071954f95bc7b0",
@@ -221,34 +158,6 @@
     ],
     "notes": "",
     "archivedAt": "2026-06-01T17:51:04Z"
-  },
-  {
-    "id": "y4J5JRapoljMZ9DhORUTP",
-    "title": "The headless browser for AI agents and web scraping",
-    "url": "https://github.com/h4ckf0r0day/obscura",
-    "thumbnail": "https://opengraph.githubassets.com/7fc1b0238c8ca6af53ab8a7d53fbd261848be0f5c5906e9706095cfc97c3520f/h4ckf0r0day/obscura",
-    "description": "The headless browser for AI agents and web scraping",
-    "customTags": [],
-    "notes": "",
-    "archivedAt": "2026-06-01T17:51:04Z"
-  },
-  {
-    "id": "FI98Bi3m3FU1scVPo78vP",
-    "title": "vkhanhqui/figma-mcp-go: Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code",
-    "ogImage": "https://opengraph.githubassets.com/1/vkhanhqui/figma-mcp-go",
-    "thumbnail": "https://opengraph.githubassets.com/1/vkhanhqui/figma-mcp-go",
-    "url": "https://github.com/vkhanhqui/figma-mcp-go",
-    "customTags": [
-      "agent",
-      "ai",
-      "automation",
-      "design",
-      "figma",
-      "figma-plugin",
-      "mcp"
-    ],
-    "notes": "Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code. Desenvolvido em Go.",
-    "archivedAt": "2026-06-24T16:37:27Z"
   },
   {
     "id": "$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 20)",
