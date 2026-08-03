@@ -29,5 +29,17 @@
       "codex"
     ],
     "notes": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+  },
+  {
+    "title": "skills",
+    "url": "https://github.com/claude-office-skills/skills",
+    "customTags": [
+      "claude-skills",
+      "office",
+      "typescript",
+      "automation",
+      "productivity"
+    ],
+    "notes": "A curated collection of practical Claude Skills for real-world office tasks"
   }
 ]
