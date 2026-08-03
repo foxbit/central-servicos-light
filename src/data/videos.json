@@ -21,7 +21,7 @@
     "thumbnail": "https://i.ytimg.com/vi/CVvx-lSCHK8/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=CVvx-lSCHK8",
     "tags": [
-      "programa\u00e7\u00e3o",
+      "programação",
       "inteligenciaartificial",
       "nocode",
       "agents",
@@ -88,7 +88,7 @@
   },
   {
     "id": "s8Qz93Q0qyzUM8NEYvLOk",
-    "title": "Testei o Google Omini pra criar Motion e o resultado \u00e9 INSANO",
+    "title": "Testei o Google Omini pra criar Motion e o resultado é INSANO",
     "url": "https://www.youtube.com/watch?v=dqb-sb5HUOw",
     "thumbnail": "https://img.youtube.com/vi/dqb-sb5HUOw/maxresdefault.jpg",
     "channel": "Fernando Araujo",
@@ -123,7 +123,7 @@
   },
   {
     "id": "a35d1f677a344257b85f84488877b473",
-    "title": "I Built My Dream Game in 72 Hours \u2014 Assets by AI, Gameplay by Claude Code",
+    "title": "I Built My Dream Game in 72 Hours — Assets by AI, Gameplay by Claude Code",
     "channel": "Stefan 3D AI",
     "thumbnail": "https://img.youtube.com/vi/k9cbm5jSOxk/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=k9cbm5jSOxk",
@@ -140,7 +140,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=ljHRWIYMYf4",
     "tags": [],
     "customTags": [],
-    "notes": "Este v\u00eddeo \u00e9 um tutorial pr\u00e1tico que ensina como conectar o Claude Code \u00e0 vasta biblioteca de refer\u00eancias de design do Mobbin atrav\u00e9s do MCP. O apresentador mostra como essa integra\u00e7\u00e3o permite que a IA pesquise e utilize padr\u00f5es de design do mundo real para gerar interfaces de usu\u00e1rio (UI) mais precisas e profissionais, em vez de simplesmente \"adivinhar\" o design.",
+    "notes": "Este vídeo é um tutorial prático que ensina como conectar o Claude Code à vasta biblioteca de referências de design do Mobbin através do MCP. O apresentador mostra como essa integração permite que a IA pesquise e utilize padrões de design do mundo real para gerar interfaces de usuário (UI) mais precisas e profissionais, em vez de simplesmente \"adivinhar\" o design.",
     "archivedAt": "2026-07-09T14:30:34Z"
   },
   {
@@ -196,14 +196,26 @@
   },
   {
     "id": "hgF4C0K1KBk",
-    "title": "Como captar imagens da Esta\u00e7\u00e3o Espacial Internacional (ISS)",
+    "title": "Como captar imagens da Estação Espacial Internacional (ISS)",
     "channel": "tuturbo1991",
     "thumbnail": "https://img.youtube.com/vi/hgF4C0K1KBk/maxresdefault.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=hgF4C0K1KBk",
     "duration": 1477,
     "tags": [],
     "customTags": [],
-    "notes": "O v\u00eddeo \u00e9 um tutorial que ensina como receber imagens transmitidas pela Esta\u00e7\u00e3o Espacial Internacional via r\u00e1dio (SSTV). O apresentador demonstra como construir uma antena caseira usando cabo coaxial, utilizar um receptor SDR (Software Defined Radio) acess\u00edvel e softwares gratuitos para rastrear a ISS, gravar o sinal e decodific\u00e1-lo em imagens.",
+    "notes": "O vídeo é um tutorial que ensina como receber imagens transmitidas pela Estação Espacial Internacional via rádio (SSTV). O apresentador demonstra como construir uma antena caseira usando cabo coaxial, utilizar um receptor SDR (Software Defined Radio) acessível e softwares gratuitos para rastrear a ISS, gravar o sinal e decodificá-lo em imagens.",
     "archivedAt": "2026-07-30T04:42:15Z"
+  },
+  {
+    "id": "9rXH2ssCe9E",
+    "title": "Hermes Agent has a NEW SuperPower (NotebookLM)",
+    "channel": "Jack Roberts",
+    "thumbnail": "https://img.youtube.com/vi/9rXH2ssCe9E/maxresdefault.jpg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9rXH2ssCe9E",
+    "duration": 985,
+    "tags": [],
+    "customTags": [],
+    "notes": "Hermes Agent just got 10X Better (Agentic OS) - NotebookLM integration.",
+    "archivedAt": "2026-08-03T04:29:08Z"
   }
 ]
