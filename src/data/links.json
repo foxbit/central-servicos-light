@@ -188,5 +188,21 @@
     ],
     "notes": "Add the Higgsfield MCP server to Claude, OpenClaw, Hermes Agent, NemoClaw, or any MCP-compatible client. 30+ models for image and video generation, no API key required.",
     "archivedAt": "2026-07-22T17:39:06Z"
+  },
+  {
+    "id": "diCj6v4U2fxhOaO-ARyg",
+    "title": "Aesthetic-Usability Effect | Laws of UX",
+    "ogImage": "https://lawsofux.com/aesthetic-usability-effect/social.png",
+    "thumbnail": "https://lawsofux.com/aesthetic-usability-effect/social.png",
+    "url": "https://lawsofux.com/aesthetic-usability-effect/",
+    "customTags": [
+      "ux",
+      "usabilidade",
+      "design",
+      "psicologia",
+      "leis-ux"
+    ],
+    "notes": "Usuários percebem interfaces visualmente agradáveis como mais fáceis de usar. Referência útil para defender decisões estéticas com fundamento em psicologia do design.",
+    "archivedAt": "2026-10-20T17:05:27Z"
   }
 ]
