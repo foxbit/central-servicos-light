@@ -1,4 +1,4 @@
-# Central de Serviços
+# Second Brain
 
 Hub estático para gerenciar e visualizar recursos digitais — links, vídeos e skills para LLM — em uma interface centralizada.
 

@@ -22,7 +22,7 @@ export function Header() {
               <Layers className="w-4 h-4 text-accent" />
             </div>
             <span className="font-serif font-semibold text-sm text-paper group-hover:text-accent transition-colors duration-150">
-              Central de Serviços
+              Second Brain
             </span>
           </Link>
 

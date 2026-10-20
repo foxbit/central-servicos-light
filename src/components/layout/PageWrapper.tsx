@@ -17,7 +17,7 @@ export function PageWrapper({ children }: PageWrapperProps) {
       <footer className="border-t border-line">
         <div className="max-w-7xl mx-auto px-4 py-5">
           <p className="font-mono text-[0.7rem] uppercase tracking-[0.18em] text-muted">
-            Central de Serviços (rede interna)
+            Second Brain (rede interna)
           </p>
         </div>
       </footer>
