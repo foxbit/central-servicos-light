@@ -29,30 +29,27 @@ export function SkillCard({ item }: SkillCardProps) {
       href={item.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col glass overflow-hidden transition-all duration-300
-                 hover:scale-[1.02] hover:border-white/20 hover:shadow-xl hover:shadow-emerald-500/10"
+      className="card group flex flex-col overflow-hidden min-h-[44px]"
     >
-      {/* OG Image — GitHub gera automaticamente */}
-      <div className="relative aspect-video overflow-hidden bg-gray-900">
+      {/* OG Image, GitHub gera automaticamente */}
+      <div className="relative aspect-video overflow-hidden bg-ink border-b border-line">
         {ogImage ? (
           <img
             src={ogImage}
             alt={item.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-emerald-900/40 to-gray-900">
-            <div className="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center">
-              <FolderGit2 className="w-5 h-5 text-emerald-400" />
+          <div className="w-full h-full flex items-center justify-center">
+            <div className="w-10 h-10 border border-line flex items-center justify-center">
+              <FolderGit2 className="w-5 h-5 text-muted" />
             </div>
           </div>
         )}
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         {/* External link */}
-        <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-          <div className="w-7 h-7 bg-black/60 backdrop-blur-sm rounded-lg flex items-center justify-center">
-            <ExternalLink className="w-3.5 h-3.5 text-white" />
+        <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+          <div className="w-7 h-7 bg-ink border border-line flex items-center justify-center">
+            <ExternalLink className="w-3.5 h-3.5 text-paper" />
           </div>
         </div>
       </div>
@@ -62,21 +59,21 @@ export function SkillCard({ item }: SkillCardProps) {
         {/* Repo path */}
         {parsed && (
           <div className="flex items-center gap-1.5">
-            <FolderGit2 className="w-3.5 h-3.5 text-gray-500 shrink-0" />
-            <span className="text-xs text-gray-500 truncate">
-              {parsed.owner}/<span className="text-gray-400">{parsed.repo}</span>
+            <FolderGit2 className="w-3.5 h-3.5 text-muted shrink-0" />
+            <span className="meta truncate">
+              {parsed.owner}/{parsed.repo}
             </span>
           </div>
         )}
 
         {/* Title */}
-        <h3 className="text-sm font-semibold text-gray-100 line-clamp-2 leading-snug group-hover:text-white transition-colors">
+        <h3 className="font-serif text-sm font-semibold text-paper line-clamp-2 leading-snug flex-1">
           {item.title}
         </h3>
 
         {/* Notes */}
         {item.notes && (
-          <p className="text-xs text-gray-400 line-clamp-2 leading-relaxed flex-1">
+          <p className="font-serif text-xs text-muted line-clamp-2 leading-relaxed flex-1">
             {item.notes}
           </p>
         )}

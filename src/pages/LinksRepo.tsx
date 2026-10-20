@@ -1,4 +1,3 @@
-import { Link2 } from 'lucide-react';
 import { PageWrapper } from '../components/layout/PageWrapper';
 import { SearchBar } from '../components/ui/SearchBar';
 import { LinkCard } from '../components/cards/LinkCard';
@@ -30,13 +29,9 @@ export function LinksRepo() {
       <div className="pt-8 pb-4 animate-slide-up">
         {/* Page header */}
         <div className="mb-8">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center shadow-lg shadow-violet-500/25">
-              <Link2 className="w-5 h-5 text-white" />
-            </div>
-            <h1 className="text-2xl font-bold text-white">Repositório de Links</h1>
-          </div>
-          <p className="text-gray-500 text-sm ml-12">
+          <p className="kicker">Links</p>
+          <h1 className="font-serif text-3xl font-semibold text-paper mb-2">Repositório de Links</h1>
+          <p className="font-serif text-muted text-sm">
             {links.length} links salvos — pesquise por título, descrição ou tags
           </p>
         </div>

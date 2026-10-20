@@ -11,11 +11,11 @@ export function CardGrid({ children, isEmpty, emptyMessage = 'Nenhum item encont
   if (isEmpty) {
     return (
       <div className="flex flex-col items-center justify-center py-24 text-center animate-fade-in">
-        <div className="w-16 h-16 rounded-2xl glass flex items-center justify-center mb-4">
-          <SearchX className="w-8 h-8 text-gray-500" />
+        <div className="w-16 h-16 border border-line flex items-center justify-center mb-4">
+          <SearchX className="w-8 h-8 text-muted" />
         </div>
-        <p className="text-gray-400 font-medium">{emptyMessage}</p>
-        <p className="text-gray-600 text-sm mt-1">Tente buscar por outro termo.</p>
+        <p className="font-serif text-paper font-semibold">{emptyMessage}</p>
+        <p className="font-serif text-muted text-sm mt-1">Tente buscar por outro termo.</p>
       </div>
     );
   }

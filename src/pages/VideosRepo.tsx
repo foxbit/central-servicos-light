@@ -1,4 +1,3 @@
-import { Video } from 'lucide-react';
 import { PageWrapper } from '../components/layout/PageWrapper';
 import { SearchBar } from '../components/ui/SearchBar';
 import { VideoCard } from '../components/cards/VideoCard';
@@ -37,13 +36,9 @@ export function VideosRepo() {
       <div className="pt-8 pb-4 animate-slide-up">
         {/* Page header */}
         <div className="mb-8">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center shadow-lg shadow-red-500/25">
-              <Video className="w-5 h-5 text-white" />
-            </div>
-            <h1 className="text-2xl font-bold text-white">Repositório de Vídeos</h1>
-          </div>
-          <p className="text-gray-500 text-sm ml-12">
+          <p className="kicker">Vídeos</p>
+          <h1 className="font-serif text-3xl font-semibold text-paper mb-2">Repositório de Vídeos</h1>
+          <p className="font-serif text-muted text-sm">
             {videos.length} vídeos arquivados — pesquise por título, canal ou tags
           </p>
         </div>

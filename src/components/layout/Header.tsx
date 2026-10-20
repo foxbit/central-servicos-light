@@ -8,30 +8,31 @@ export function Header() {
   const breadcrumbs: Record<string, string> = {
     '/links': 'Links',
     '/videos': 'Vídeos',
+    '/skills': 'Skills',
   };
 
   const current = breadcrumbs[location.pathname];
 
   return (
-    <header className="sticky top-0 z-50 px-4 py-3">
-      <div className="max-w-7xl mx-auto">
-        <div className="glass flex items-center justify-between px-5 py-3">
-          <Link to="/" className="flex items-center gap-2.5 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-violet-500/25 group-hover:shadow-violet-500/40 transition-shadow">
-              <Layers className="w-4 h-4 text-white" />
+    <header className="sticky top-0 z-50 bg-ink border-b border-line">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex items-center justify-between py-3">
+          <Link to="/" className="flex items-center gap-2.5 group min-h-[44px]">
+            <div className="w-8 h-8 border border-line flex items-center justify-center group-hover:border-accent transition-colors duration-150">
+              <Layers className="w-4 h-4 text-accent" />
             </div>
-            <span className="font-semibold text-sm text-gray-200 group-hover:text-white transition-colors">
+            <span className="font-serif font-semibold text-sm text-paper group-hover:text-accent transition-colors duration-150">
               Central de Serviços
             </span>
           </Link>
 
           {!isHome && current && (
-            <nav className="flex items-center gap-1.5 text-sm">
-              <Link to="/" className="text-gray-500 hover:text-gray-300 transition-colors">
+            <nav className="flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.12em]">
+              <Link to="/" className="text-muted hover:text-accent transition-colors duration-150 min-h-[44px] flex items-center">
                 Home
               </Link>
-              <span className="text-gray-600">/</span>
-              <span className="text-gray-300 font-medium">{current}</span>
+              <span className="text-muted">/</span>
+              <span className="text-paper">{current}</span>
             </nav>
           )}
         </div>
