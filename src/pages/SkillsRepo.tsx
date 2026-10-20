@@ -22,7 +22,7 @@ export function SkillsRepo() {
           <p className="kicker">Skills</p>
           <h1 className="font-serif text-3xl font-semibold text-paper mb-2">Skills para LLM</h1>
           <p className="font-serif text-muted text-sm">
-            {skills.length} repositórios salvos — pesquise por título, descrição ou tags
+            {skills.length} repositórios salvos, pesquise por título, descrição ou tags
           </p>
         </div>
 

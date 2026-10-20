@@ -39,7 +39,7 @@ export function VideosRepo() {
           <p className="kicker">Vídeos</p>
           <h1 className="font-serif text-3xl font-semibold text-paper mb-2">Repositório de Vídeos</h1>
           <p className="font-serif text-muted text-sm">
-            {videos.length} vídeos arquivados — pesquise por título, canal ou tags
+            {videos.length} vídeos arquivados, pesquise por título, canal ou tags
           </p>
         </div>
 

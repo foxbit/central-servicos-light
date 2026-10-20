@@ -32,7 +32,7 @@ export function LinksRepo() {
           <p className="kicker">Links</p>
           <h1 className="font-serif text-3xl font-semibold text-paper mb-2">Repositório de Links</h1>
           <p className="font-serif text-muted text-sm">
-            {links.length} links salvos — pesquise por título, descrição ou tags
+            {links.length} links salvos, pesquise por título, descrição ou tags
           </p>
         </div>
 
