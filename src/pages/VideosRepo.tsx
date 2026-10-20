@@ -7,7 +7,24 @@ import { useSearch } from '../hooks/useSearch';
 import { VideoItem } from '../types';
 import videosRaw from '../data/videos.json';
 
-const videos: VideoItem[] = videosRaw.map((item, i) => ({ ...item, id: String(i) }));
+const videos: VideoItem[] = (videosRaw as any[]).map((item, i) => ({
+  id: String(item.id ?? i),
+  title: String(item.title ?? ''),
+  channel: String(item.channel ?? ''),
+  thumbnail: String(item.thumbnail ?? ''),
+  youtubeUrl: String(item.youtubeUrl ?? item.url ?? ''),
+  tags:
+    Array.isArray(item.tags) && item.tags.length > 0
+      ? item.tags.map(String)
+      : Array.isArray(item.customTags)
+        ? item.customTags.map(String)
+        : [],
+  url: item.url ? String(item.url) : undefined,
+  duration: item.duration ?? undefined,
+  customTags: Array.isArray(item.customTags) ? item.customTags.map(String) : undefined,
+  notes: item.notes ? String(item.notes) : undefined,
+  archivedAt: item.archivedAt ? String(item.archivedAt) : undefined,
+}));
 
 export function VideosRepo() {
   const { query, setQuery, filtered } = useSearch(

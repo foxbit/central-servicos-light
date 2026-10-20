@@ -1,11 +1,13 @@
 export interface LinkItem {
   id: string;
   title: string;
-  ogImage: string;
+  ogImage?: string;
   thumbnail?: string;
   url: string;
   customTags: string[];
   notes: string;
+  description?: string;
+  archivedAt?: string;
 }
 
 export interface VideoItem {
@@ -15,6 +17,11 @@ export interface VideoItem {
   thumbnail: string;
   youtubeUrl: string;
   tags: string[];
+  url?: string;
+  duration?: number | string;
+  customTags?: string[];
+  notes?: string;
+  archivedAt?: string;
 }
 
 export interface SkillItem {

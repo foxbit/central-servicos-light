@@ -7,7 +7,17 @@ import { useSearch } from '../hooks/useSearch';
 import { LinkItem } from '../types';
 import linksRaw from '../data/links.json';
 
-const links: LinkItem[] = linksRaw.map((item, i) => ({ ...item, id: String(i) }));
+const links: LinkItem[] = (linksRaw as any[]).map((item, i) => ({
+  id: String(item.id ?? i),
+  title: String(item.title ?? ''),
+  ogImage: item.ogImage ? String(item.ogImage) : undefined,
+  thumbnail: item.thumbnail ? String(item.thumbnail) : undefined,
+  url: String(item.url ?? ''),
+  customTags: Array.isArray(item.customTags) ? item.customTags.map(String) : [],
+  notes: String(item.notes ?? item.description ?? ''),
+  description: item.description ? String(item.description) : undefined,
+  archivedAt: item.archivedAt ? String(item.archivedAt) : undefined,
+}));
 
 export function LinksRepo() {
   const { query, setQuery, filtered } = useSearch(
