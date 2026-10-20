@@ -1,58 +1,58 @@
 [
- {
-  "title": "remotion",
-  "url": "https://github.com/remotion-dev/remotion",
-  "customTags": [
-   "react",
-   "javascript",
-   "video",
-   "typescript",
-   "animation",
-   "svg",
-   "canvas",
-   "motion-graphics",
-   "creative-coding",
-   "webgl",
-   "video-editing",
-   "programmatic-video"
-  ],
-  "notes": "Framework para criar vídeos programaticamente usando React, aproveitando tecnologias web como CSS, Canvas, SVG, WebGL, etc."
- },
- {
-  "title": "hallmark",
-  "url": "https://github.com/Nutlope/hallmark",
-  "customTags": [
-   "css",
-   "design",
-   "claude-code",
-   "cursor",
-   "codex"
-  ],
-  "notes": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
- },
- {
-  "title": "skills",
-  "url": "https://github.com/claude-office-skills/skills",
-  "customTags": [
-   "claude-skills",
-   "office",
-   "typescript",
-   "automation",
-   "productivity"
-  ],
-  "notes": "A curated collection of practical Claude Skills for real-world office tasks"
- },
- {
-  "title": "dembrandt",
-  "url": "https://github.com/dembrandt/dembrandt",
-  "customTags": [
-   "design-system",
-   "design-tokens",
-   "css",
-   "typography",
-   "cli",
-   "frontend"
-  ],
-  "notes": "Extrai o design system de qualquer site em segundos (logo, cores, tipografia, espaçamento, bordas e sombras) e gera tokens no formato W3C com um comando, com checagem em CI."
- }
+  {
+    "title": "remotion",
+    "url": "https://github.com/remotion-dev/remotion",
+    "customTags": [
+      "react",
+      "javascript",
+      "video",
+      "typescript",
+      "animation",
+      "svg",
+      "canvas",
+      "motion-graphics",
+      "creative-coding",
+      "webgl",
+      "video-editing",
+      "programmatic-video"
+    ],
+    "notes": "Framework para criar vídeos programaticamente usando React, aproveitando tecnologias web como CSS, Canvas, SVG, WebGL, etc."
+  },
+  {
+    "title": "hallmark",
+    "url": "https://github.com/Nutlope/hallmark",
+    "customTags": [
+      "css",
+      "design",
+      "claude-code",
+      "cursor",
+      "codex"
+    ],
+    "notes": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+  },
+  {
+    "title": "skills",
+    "url": "https://github.com/claude-office-skills/skills",
+    "customTags": [
+      "claude-skills",
+      "office",
+      "typescript",
+      "automation",
+      "productivity"
+    ],
+    "notes": "A curated collection of practical Claude Skills for real-world office tasks"
+  },
+  {
+    "title": "dembrandt",
+    "url": "https://github.com/dembrandt/dembrandt",
+    "customTags": [
+      "design-system",
+      "design-tokens",
+      "css",
+      "typography",
+      "cli",
+      "frontend"
+    ],
+    "notes": "Extrai o design system de qualquer site em segundos (logo, cores, tipografia, espaçamento, bordas e sombras) e gera tokens no formato W3C com um comando, com checagem em CI."
+  }
 ]
